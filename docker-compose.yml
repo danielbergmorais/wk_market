@@ -10,7 +10,7 @@ services:
          - WEB_DOCUMENT_ROOT=/app/pub
          - PHP_DATE_TIMEZONE=EST
          - PHP_DISPLAY_ERRORS=1
-         - PHP_MEMORY_LIMIT=1024M
+         - PHP_MEMORY_LIMIT=4096M
          - PHP_MAX_EXECUTION_TIME=300
          - PHP_POST_MAX_SIZE=500M
          - PHP_UPLOAD_MAX_FILESIZE=1024M
