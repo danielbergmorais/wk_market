@@ -6,16 +6,16 @@ services:
        restart: always
        user: application
        environment:
-         - WEB_ALIAS_DOMAIN=ec2-3-85-198-18.compute-1.amazonaws.com
+         - WEB_ALIAS_DOMAIN=local.domain.com
          - WEB_DOCUMENT_ROOT=/app/pub
          - PHP_DATE_TIMEZONE=EST
          - PHP_DISPLAY_ERRORS=1
-         - PHP_MEMORY_LIMIT=1024M
+         - PHP_MEMORY_LIMIT=4256M
          - PHP_MAX_EXECUTION_TIME=300
          - PHP_POST_MAX_SIZE=500M
          - PHP_UPLOAD_MAX_FILESIZE=1024M
        volumes:
-         - /var/site/wk_market:/app:cached
+         - /home/dennyel/Projects/TestMarket:/app:cached
        ports:
          - "80:80"
          - "443:443"
