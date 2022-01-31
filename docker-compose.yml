@@ -6,7 +6,7 @@ services:
        restart: always
        user: application
        environment:
-         - WEB_ALIAS_DOMAIN=ec2-54-235-41-85.compute-1.amazonaws.com
+         - WEB_ALIAS_DOMAIN=ec2-54-146-196-88.compute-1.amazonaws.com
          - WEB_DOCUMENT_ROOT=/app/pub
          - PHP_DATE_TIMEZONE=EST
          - PHP_DISPLAY_ERRORS=1

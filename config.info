@@ -4,8 +4,8 @@ php bin/magento setup:install \
 --admin-email=danielbergmorais@gmail.com \
 --admin-user=admin \
 --admin-password='magentotest4965' \
---base-url=ec2-54-235-41-85.compute-1.amazonaws.com  \
---base-url-secure=ec2-54-235-41-85.compute-1.amazonaws.com \
+--base-url=ec2-54-146-196-88.compute-1.amazonaws.com  \
+--base-url-secure=ec2-54-146-196-88.compute-1.amazonaws.com \
 --backend-frontname=admin \
 --db-host=mysql \
 --db-name=magento \
